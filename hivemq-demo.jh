@@ -1,0 +1,14 @@
+/**
+ * The MQTT broker entity.
+ * @author Marco Basile
+ */
+entity Broker {
+	hostname String required
+    port String required
+}
+
+paginate Broker with pagination
+
+dto * with mapstruct
+
+service all with serviceImpl
